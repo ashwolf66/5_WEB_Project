@@ -1,62 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
     <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-<ul class="menu">
-    <li>
-        <a href="#">MENU1</a>
-        <ul class="submenu">
-            <li><a href="#">submenu01</a></li>
-            <li><a href="#">submenu02</a></li>
-            <li><a href="#">submenu03</a></li>
-            <li><a href="#">submenu04</a></li>
-            <li><a href="#">submenu05</a></li>
-        </ul>
-    </li>
-    <li>
-        <a href="#">MENU2</a>
-        <ul class="submenu">
-            <li><a href="#">submenu01</a></li>
-            <li><a href="#">submenu02</a></li>
-            <li><a href="#">submenu03</a></li>
-            <li><a href="#">submenu04</a></li>
-            <li><a href="#">submenu05</a></li>
-        </ul>
-    </li>
-    <li>
-        <a href="#">MENU3</a>
-        <ul class="submenu">
-            <li><a href="#">submenu01</a></li>
-            <li><a href="#">submenu02</a></li>
-            <li><a href="#">submenu03</a></li>
-            <li><a href="#">submenu04</a></li>
-            <li><a href="#">submenu05</a></li>
-        </ul>
-    </li>
-    <li>
-        <a href="#">MENU4</a>
-        <ul class="submenu">
-            <li><a href="#">submenu01</a></li>
-            <li><a href="#">submenu02</a></li>
-            <li><a href="#">submenu03</a></li>
-            <li><a href="#">submenu04</a></li>
-            <li><a href="#">submenu05</a></li>
-        </ul>
-    </li>
-    <li>
-        <a href="#">MENU5</a>
-        <ul class="submenu">
-            <li><a href="#">submenu01</a></li>
-            <li><a href="#">submenu02</a></li>
-            <li><a href="#">submenu03</a></li>
-            <li><a href="#">submenu04</a></li>
-            <li><a href="#">submenu05</a></li>
-        </ul>
-    </li>
-</ul>
+<div class="text_list_frame">
+    <input type="button" class="log" id="join" value="회원가입">
+    <input type="button" class="log" id="login" value="로그인">
+    <table class="text_list">
+        <thead>
+            <tr>
+                <th scope="col">제목</th>
+                <th scope="col">작성자</th>
+                <th scope="col">작성일</th>
+                <th scope="col">조회</th>
+            </tr>
+        </thead>
+        <tbody class="text_list_main">
+            <tr>
+                <td class="text_title">
+                    <a href="https://google.com">
+                        <b>pipex</b>
+                    </a>
+                </td>
+                <td class="text_writer">홍재혁</td>
+                <td class="text_date">2024-05-24</td>
+                <td class="text_recount">0</td>
+            </tr>
+            <tr>
+                <td class="text_title">
+                    <a href="https://google.com">
+                        <b>ft_printf</b>
+                    </a>
+                </td>
+                <td class="text_writer">홍재혁</td>
+                <td class="text_date">2024-05-24</td>
+                <td class="text_recount">0</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 </body>
 </html>

@@ -1,51 +1,44 @@
 *{padding:0;margin:0}
-li{list-style:none}
-a{text-decoration:none;font-size:14px}
-/*.menu {*/
-/*    width: 800px;*/
-/*    overflow: hidden;*/
-/*    margin: 150px auto;*/
-/*}*/
 
-/*.menu > li {*/
-/*    width: 20%; !*20*5=100%*!*/
-/*    float: left;*/
-/*    text-align: center;*/
-/*    line-height: 40px;*/
-/*    background-color: #5778ff;*/
-/*}*/
-
-.menu {
-    width: 300px;
-    overflow: hidden;
-    margin: 150px auto;
-}
-
-.menu > li {
-    width: 100%;
+table {
+    width: 80%;
     text-align: center;
-    line-height: 40px;
-    background-color: #5778ff;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.menu a {
-    color: #fff;
+.jog div{
+    overflow: auto;
+    float: right;
 }
 
-.submenu > li {
-    line-height: 50px;
-    background-color: #94a9ff;
+td {
+    border: 1px solid gray;
+    border-right: hidden;
+    border-left: hidden;
+    border-collapse: collapse;
 }
 
-.submenu {
-    height: 0; /*ul의 높이를 안보이게 처리*/
-    overflow: hidden;
-}
-.menu > li:hover {
-    background-color: #94a9ff;
-    transition-duration: 0.5s;
+table, th {
+    border: 3px solid gray;
+    border-right: hidden;
+    border-left: hidden;
+    border-collapse: collapse;
 }
 
-.menu > li:hover .submenu {
-    height: 250px; /*서브메뉴 li한개의 높이 50*5*/
-    transition-duration: 1s;
+.text_title {
+    width: 50%;
+    text-align: left;
+}
+
+.text_writer {
+    width: 20%;
+}
+
+.text_date {
+    width: 20%;
+}
+
+.text_recount {
+    width: 10%;
+}
